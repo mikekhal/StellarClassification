@@ -10,7 +10,7 @@ Some of the relationships between these variables already known through:
 
 •Definition of Stellar Magnitudes, $m_i$: $m_1 - m_2 = -2.5log_{10} (\frac{F_1}{F_2}) (F=\frac{L}{4 \pi d^2}$)
 
-•Luminosity - Mass relation, where for high-mass stars with constant opacity ($k=1$): $L \propto M^3$
+•Luminosity - Mass relation, where for high-mass stars with constant opacity ($k=1$): $L \propto M^3$. As R $\propto M^{0.8} for stars, $L \propto R^{4.375}$
 
 The colour of the star is primarily dependent on the star's photospheric temperature. A sketch illustrating the concept of colour indices for blackbodies of different temperatures, where the vertical bands indicate the location of the filter bands (EM wavelength):
 ![image](https://github.com/user-attachments/assets/95304eb3-e322-443b-932f-0e37c71de16d)
