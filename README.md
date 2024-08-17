@@ -20,4 +20,36 @@ A HR diagram (a plot of the luminosity against effective temperature) can be use
 
 ![image](https://github.com/user-attachments/assets/276f8d81-6f91-4357-8350-4ec4116542ca)
 
-A split of 30/70 was made for the training to testing data. 
+ML Algorithms used:
+
+                                        Decision Tree Classifier
+
+A Decision Tree Classifier algorithm is a supervising learning method, which splits the data according to the selected feature, and creates left and right branches of the tree until a stopping criteria is met.
+
+The "sklearn" library was used, with a radius condition used as the root node. The model was trained on 70% of the dataset and tested on the remaining 30%. The performance was evaluated using accuracy, a classification report, and mean squared error (MSE) for both the training and test sets.
+The decision tree was visualized using the export_graphviz method, which provides a graphical representation of the decision tree:
+
+![star](https://github.com/user-attachments/assets/c0daeb34-57e8-4b7d-9827-d9e34123168e)
+
+**Results**
+Accuracy: The Decision Tree model achieved an accuracy of 100% on the test set.
+Errors: The training error was 0 (MSE), and the test error was 0 (MSE).
+
+                                        Random Forest Classifier
+
+A random forest is a method that fits a number of decision tree classifiers on various sub-samples of the dataset.
+
+**Results**
+Accuracy: The Random Forest Classifier model achieved an accuracy of 100% on the test set.
+Errors: The training error was 0 (MSE), and the test error was 0 (MSE).
+
+**Learning Curves**: The learning curves for both models were plotted to visualize the training and validation errors as a function of the training set size.
+
+Decision Tree:
+
+****![learning_curve_decision_tree](https://github.com/user-attachments/assets/8b48ee80-c2bd-4986-8aa5-ab465a375b5c)
+
+Random Forest Classifier:
+
+![learning_curve_random_forest](https://github.com/user-attachments/assets/8420053f-aa6a-42c1-9999-490dae8cbba5)
+
