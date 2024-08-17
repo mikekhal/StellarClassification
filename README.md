@@ -47,7 +47,7 @@ Errors: The training error was 0 (MSE), and the test error was 0 (MSE).
 
 Decision Tree:
 
-****![learning_curve_decision_tree](https://github.com/user-attachments/assets/8b48ee80-c2bd-4986-8aa5-ab465a375b5c)
+![learning_curve_decision_tree](https://github.com/user-attachments/assets/8b48ee80-c2bd-4986-8aa5-ab465a375b5c)
 
 Random Forest Classifier:
 
